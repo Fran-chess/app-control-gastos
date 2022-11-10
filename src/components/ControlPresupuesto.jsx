@@ -40,7 +40,6 @@ const ControlPresupuesto = ({
   };
   // Handles
   const handleResetApp = () => {
-    e.preventDefault();
     const resultado = confirm("¿Deseas restablecer todo?");
     if (resultado) {
       setGastos([]);
